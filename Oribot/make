@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+echo "Building Oribotics Network Control ..."
+
+gcc oribotics.c -o ori -Wall -lmysqlclient -lpthread -g
+
+
+
